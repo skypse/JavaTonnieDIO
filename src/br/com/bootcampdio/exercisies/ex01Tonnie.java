@@ -6,7 +6,7 @@ import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 import java.util.Scanner;
 
-public class ex01TonnieJava {
+public class ex01Tonnie {
     /*
      * 1-) Write a code that receives someone's year and date of birth and prints the following message on the screen:
      * “Hello ‘Joe’ you are ‘X’ years old”
