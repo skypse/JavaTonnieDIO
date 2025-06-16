@@ -32,5 +32,6 @@ public class example02Tonnie {
                                         default:
                                             System.out.println("Opção invalida!");
         }
+        sc.close();
     }
 }
