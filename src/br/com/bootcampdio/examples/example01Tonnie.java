@@ -11,12 +11,19 @@ public class example01Tonnie {
 
         System.out.println("What's your age?: ");
         int personAge = sc.nextInt();
+        System.out.println("");
+        sc.nextLine();
+        System.out.println("Are you emancipated?: (y/n)");
+        String isEmancipated = sc.nextLine().equalsIgnoreCase("y") ? "yes" : "no";
 
         if (personAge >= 18) {
             System.out.printf("%s you're %d, you can drive!", personName, personAge);
-        } else {
+        } else if (personAge >= 16 && isEmancipated.equalsIgnoreCase("yes")) {
+            System.out.printf("%s, although you are %d years old, you are emancipated and can drive!", personName, personAge);
+        }
+        else {
             System.out.printf("%s you're %d, you can't drive!", personName, personAge);
         }
-
+        sc.close();
     }
 }
