@@ -9,17 +9,14 @@ public class ex02Tonnie {
         * -> Formula: area = side X side
         * */
         Scanner sc = new Scanner(System.in);
-
         // SIDE A
         System.out.println("Write the side A: ");
         double sideA = sc.nextDouble();
         // SIDE B
         System.out.println("Write the side B: ");
         double sideB = sc.nextDouble();
-
         double resultArea = sideA * sideB;
         System.out.println("The area of the side is " + resultArea);
-
         sc.close();
     }
 }

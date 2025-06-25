@@ -17,6 +17,6 @@ public class ex05Tonnie {
             System.out.printf("%d x %d = %d\n", tabuadaNumber, contador, tabuadaNumber * contador);
             contador++;
         }
-
+        sc.close();
     }
 }
