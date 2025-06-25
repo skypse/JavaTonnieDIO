@@ -49,7 +49,6 @@ public class ex06Tonnie {
         {
             System.out.println("Underweight: " + df.format(imcCalc));
         }
-
-
+        sc.close();
     }
 }
